@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="87ce8190-1efe-4cd4-9835-af730c63f684" name="gl">
+        <fileTransfer accessType="SFTP" host="gl.umbc.edu" port="22" sshConfigId="f151769f-bcd6-4096-b19c-e45eac6020c6" sshConfig="shreyas7@gl.umbc.edu:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
