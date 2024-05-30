@@ -1,10 +1,8 @@
-// CMSC 341 - Fall 2023 - Project 4
+
 #include "dealer.h"
 /*
 File: dealer.cpp
 Author: Shreya Sivakumar
-Date: 12/5/2023
-Email: shreyas7@umbc.edu
 Description: This program is to implement a car manufactoring company using hash tables data structures which implements the map ADT.
 */
 //CarDB(int size, hash_fn hash, prob_t probing = DEFPOLCY)
