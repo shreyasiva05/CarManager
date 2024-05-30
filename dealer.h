@@ -1,4 +1,4 @@
-// CMSC 341 - Fall 2023 - Project 4
+
 #ifndef DEALER_H
 #define DEALER_H
 #include <iostream>
