@@ -85,10 +85,11 @@ public:
 private:
     hash_fn    m_hash;          // hash function
     prob_t     m_newPolicy;     // stores the change of policy request
-
-    Car*       m_currentTable;  // hash table
-    int        m_currentCap;    // hash table size (capacity)
-    int        m_currentSize;   // current number of entries
+// hash table
+    Car*       m_currentTable;  
+    int        m_currentCap;   
+//number of entries
+    int        m_currentSize;   
     // m_currentSize includes deleted entries
     int        m_currNumDeleted;// number of deleted entries
     prob_t     m_currProbing;       // collision handling policy
@@ -104,10 +105,6 @@ private:
     bool isPrime(int number);
     int findNextPrime(int current);
     void rehash();
-
-    /******************************************
-    * Private function declarations go here! *
-    ******************************************/
 
 };
 #endif
